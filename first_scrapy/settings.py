@@ -13,3 +13,5 @@ NEWSPIDER_MODULE = 'first_scrapy.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'first_scrapy (+http://www.yourdomain.com)'
+
+ITEM_PIPELINES=['first_scrapy.pipelines.StartupNews']
